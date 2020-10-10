@@ -47,7 +47,7 @@ Below, I walk through the general approach I took, and then illustrate with my a
 
 2. Look at their department website, gather the names (and years in rank, if possible to glean from CV or website) of similarly ranked (Assistant, Associate, Lecturer) faculty
 
-3. Search for those names within the state's salary look-up tool where all public salaries are reported. Record each person's salary from a given year.
+3. Search for those names within the state's salary look-up tool where all public salaries are reported. Record each person's salary from a given year. I typically just google "unc faculty salary database" or "north carolina public state salary database" and a good link is usually within the top 3 or so results (for UNC, see [here](https://www.newsobserver.com/news/databases/state-pay/article11865482.html)).
 
 ## Calibrate by Region and Within College/University (i.e., additional confounders)
 
