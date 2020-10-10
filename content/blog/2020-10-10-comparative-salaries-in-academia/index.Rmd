@@ -31,7 +31,7 @@ blogdown::shortcode('tweet', '1314601335933853697')
 [I offered to share this info and code](https://twitter.com/bencapistrant/status/1314602217207406594?s=20); enough people responded that it made sense to write it up here.
 
 
-This process leans heavily on public universities whose faculty (and all other) salaries are a matter of public record as a way to gather data. Having come from a public university, I knew this was a goldmine of information to bring into the conversation. However, the process of doing this searching is extremely manual -- I don't think there are ways to query these salary databases, which are often hosted by a local newspaper -- though not complicated. I was happy to spend an evening doing this data collection while rewatching Parks and Rec for the 500th time.
+This process leans heavily on data from public universities whose salaries are a matter of public record. Having come from a public university, I knew this was a goldmine of information to bring into the conversation. However, the process of doing this searching is extremely manual -- you could theoretically use a webscraper to pull the faculty names, but I don't think there are ways to query these salary databases, which are often hosted by a local newspaper -- though not complicated. I was happy to spend an evening doing this sort of mundane data collection while rewatching Parks and Rec for the 500th time.
 
 ![](formula.gif)
 
