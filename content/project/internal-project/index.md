@@ -16,7 +16,8 @@ links:
 slides:
 summary: The `brfssR` data package.
 tags:
-- Population Health Data Science
+- Population Health
+- Data Science
 title: brfssR
 url_code: ""
 url_pdf: ""

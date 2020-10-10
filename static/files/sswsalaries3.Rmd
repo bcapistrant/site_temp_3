@@ -1,0 +1,83 @@
+---
+title: "SSW - Assistant Professor Salaries"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, messsage=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen=999)
+library(readr)
+library(tidyverse)
+library(magrittr)
+ssw_salaries<-read_csv("sswsalaries3.csv")
+ssw_salaries<-ssw_salaries %>%
+  filter(YearsSincePhD<10, School!="Hunter College")
+```
+
+I gathered data from 55 Assistant Professors at 10 schools of social work with similar U.S. News & World Report Rankings to Smith (17). All schools are public institutions because they have searchable salary histories in the public record.
+```{r, echo=FALSE}
+ssw_salaries %>%
+  arrange(Ranking) %>%
+  group_by(School) %>%
+  add_count(School) %>%
+  select(Ranking,School,n) %>%
+  filter(row_number()==1)
+```
+
+I also gathered:
+
+- **Years of Experience:** years since an Assistant Professor received their PhD as a measure of years of experience (`YearsSincePhD`) and the year of salary data
+- **Salary** from 2017 or 2016
+- **Cost of Living Difference**: A measure of difference in Cost of Living between the location of the university and Hartford, CT (the closest metropolitan area to Smith) as calculated by [NerdWallet](https://www.nerdwallet.com/cost-of-living-calculator/compare/)
+    - For example, cost of living is 18% higher in Hartford than Madison, WI
+
+
+```{r, echo=FALSE}
+ssw_1_0<-ssw_salaries %>%
+  summarise(meanSalary=mean(Salary))
+
+ssw_1_3<-ssw_salaries %>%
+  summarise(meanSalary=mean(Salary))
+
+ssw_1_5<-ssw_salaries %>%
+  summarise(meanSalary=mean(Salary))
+
+
+m2<-lm(Salary~YearsSincePhD, data=ssw_salaries)
+ssw_2_0<-coef(m2)[1]+(coef(m2)[2]*0)
+ssw_2_3<-coef(m2)[1]+(coef(m2)[2]*3)
+ssw_2_5<-coef(m2)[1]+(coef(m2)[2]*5)
+
+m3<-lm(Salary~YearsSincePhD+Ranking, data=ssw_salaries)
+ssw_3_0<-coef(m3)[1]+(coef(m3)[2]*0) + (coef(m3)[3]*17)
+ssw_3_3<-coef(m3)[1]+(coef(m3)[2]*3) + (coef(m3)[3]*17)
+ssw_3_5<-coef(m3)[1]+(coef(m3)[2]*5) + (coef(m3)[3]*17)
+
+
+m4<-lm(Salary~YearsSincePhD+Ranking+COA_Difference, data=ssw_salaries)
+ssw_4_0<-coef(m4)[1]+(coef(m4)[2]*0) + (coef(m3)[3]*17) + coef(m4)[4]
+ssw_4_3<-coef(m4)[1]+(coef(m4)[2]*3) + (coef(m3)[3]*17) + coef(m4)[4]
+ssw_4_5<-coef(m4)[1]+(coef(m4)[2]*5) + (coef(m3)[3]*17) + coef(m4)[4]
+
+
+```
+
+# Modeling Approaches
+
+I estimated a range of salaries at Smith based on a few different approaches
+
+**Model 1.** The simple average salary for these 55 Assistant Professors: \$`r round(ssw_1_0, digits = 2)`
+
+**Model 2.** The expected salary for someone based on 0,3, or 5 years of research and teaching experience since their PhD
+
+**Model 3.** The same as #2, adjusted for School Ranking (salary estimated for Smith's rank)
+
+**Model 4.** The same as #3, adjusting for Cost of Living differences between sample schools and Hartford/Northampton)
+
+
+Approach | 0 Years of Experience | 3 Years of Experience | 5 Years of Experience |
+--- | --- | --- | --- |
+Model 2 | `r round(ssw_2_0, digits = 2)` | `r round(ssw_2_3, digits = 2)` |`r round(ssw_2_5, digits = 2)` |
+Model 3 | `r round(ssw_3_0, digits = 2)` | `r round(ssw_3_3, digits = 2)` |`r round(ssw_3_5, digits = 2)` |
+Model 4 | `r round(ssw_4_0, digits = 2)` | `r round(ssw_4_3, digits = 2)` |`r round(ssw_4_5, digits = 2)` |
+

@@ -1,0 +1,69 @@
+---
+title: "SSW - Assistant Professor Salaries"
+output: html_document
+---
+
+
+
+<p>I gathered data from 55 Assistant Professors at 10 schools of social work with similar U.S. News &amp; World Report Rankings to Smith (17). All schools are public institutions because they have searchable salary histories in the public record.</p>
+<pre><code>## # A tibble: 10 x 3
+## # Groups:   School [10]
+##    Ranking School                    n
+##      &lt;dbl&gt; &lt;chr&gt;                 &lt;int&gt;
+##  1       4 UNC                       7
+##  2      11 Wisonsin                  1
+##  3      15 Ohio State                6
+##  4      15 UCLA                      1
+##  5      17 Illinois                  4
+##  6      17 Maryland                  8
+##  7      17 Rutgers                   7
+##  8      24 UGA                       6
+##  9      24 UIC                       8
+## 10      24 University of Buffalo     7</code></pre>
+<p>I also gathered:</p>
+<ul>
+<li><strong>Years of Experience:</strong> years since an Assistant Professor received their PhD as a measure of years of experience (<code>YearsSincePhD</code>) and the year of salary data</li>
+<li><strong>Salary</strong> from 2017 or 2016</li>
+<li><strong>Cost of Living Difference</strong>: A measure of difference in Cost of Living between the location of the university and Hartford, CT (the closest metropolitan area to Smith) as calculated by <a href="https://www.nerdwallet.com/cost-of-living-calculator/compare/">NerdWallet</a>
+<ul>
+<li>For example, cost of living is 18% higher in Hartford than Madison, WI</li>
+</ul></li>
+</ul>
+<div id="modeling-approaches" class="section level1">
+<h1>Modeling Approaches</h1>
+<p>I estimated a range of salaries at Smith based on a few different approaches</p>
+<p><strong>Model 1.</strong> The simple average salary for these 55 Assistant Professors: $80454.69</p>
+<p><strong>Model 2.</strong> The expected salary for someone based on 0,3, or 5 years of research and teaching experience since their PhD</p>
+<p><strong>Model 3.</strong> The same as #2, adjusted for School Ranking (salary estimated for Smith’s rank)</p>
+<p><strong>Model 4.</strong> The same as #3, adjusting for Cost of Living differences between sample schools and Hartford/Northampton)</p>
+<table>
+<thead>
+<tr class="header">
+<th>Approach</th>
+<th>0 Years of Experience</th>
+<th>3 Years of Experience</th>
+<th>5 Years of Experience</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Model 2</td>
+<td>79007.39</td>
+<td>80201.41</td>
+<td>80997.43</td>
+</tr>
+<tr class="even">
+<td>Model 3</td>
+<td>78694.72</td>
+<td>80308.63</td>
+<td>81384.57</td>
+</tr>
+<tr class="odd">
+<td>Model 4</td>
+<td>86601.6</td>
+<td>88009.3</td>
+<td>88947.78</td>
+</tr>
+</tbody>
+</table>
+</div>

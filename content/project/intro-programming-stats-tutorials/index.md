@@ -12,7 +12,7 @@ links:
 slides:
 summary: Introductory Programming and Statistics Tutorials
 tags:
-- Population Health Data Science
+- Data Science
 - Teaching
 title: R Tutorials
 url_code: ""

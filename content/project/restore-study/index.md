@@ -6,6 +6,6 @@ image:
   focal_point: Smart
 summary: An intervention for gay/bisexual men with history of prostate cancer
 tags:
-- Health Disparities
+- Population Health
 title: Restore Study
 ---

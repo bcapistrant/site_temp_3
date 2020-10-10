@@ -12,7 +12,7 @@ links:
 slides:
 summary: Course Website for Spring 2020 Multiple Regression Course.
 tags:
-- Population Health Data Science
+- Data Science
 - Teaching
 title: Multiple Regression
 url_code: ""
