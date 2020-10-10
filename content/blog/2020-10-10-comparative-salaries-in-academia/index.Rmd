@@ -76,8 +76,8 @@ I wrote an RMarkdown file to capture the analysis and give me the core informati
 
 The files are here:
 
-- [CSV file of raw data](files/sswsalaries3.csv)
-- [the RMarkdown file that generated the report](files/sswsalaries3.Rmd)
+- [CSV file of raw data](../../../files/sswsalaries3.csv)
+- [the RMarkdown file that generated the report](../../../files/sswsalaries3.Rmd)
 
 # Discussion
 
