@@ -16,7 +16,7 @@ image:
 projects: []
 ---
 
-I jumped [into a twitter thread](https://twitter.com/SimoneKolysh/status/1314457855760707586?s=20) the other day that was encouraging faculty to share with undergraduate and graduate students how much money faculty made. As I understood it, the initial point was to create transparency about faculty salaries, effectively to say to undergraduate students, we probably don't get paid as much as you think, and certainly not relative to costs of tuition & fees, etc.
+I jumped [into a twitter thread](https://twitter.com/SimoneKolysh/status/1314457855760707586?s=20) earlier this fall that was encouraging faculty to share with undergraduate and graduate students how much money faculty made. As I understood it, the initial point was to create transparency about faculty salaries, effectively to say to undergraduate students, "faculty probably don't get paid as much as you think, and certainly not relative to costs of tuition & fees, etc."
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1314457855760707586')
@@ -78,7 +78,7 @@ I wrote an RMarkdown file to capture the analysis and give me the core informati
 
 The files are here:
 
-- [CSV file of raw data](../../../files/sswsalaries3.csv)
+- [CSV file of raw data](sswsalaries3.csv)
 - [the RMarkdown file that generated the report](../../../files/sswsalaries3.Rmd)
 
 # Discussion
