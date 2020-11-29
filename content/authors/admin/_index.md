@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor
+role: Data Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Smith College
-  url: "http://ssw.smith.edu"
+- name: Cityblock Health
+  url: "http://www.cityblock.com"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Population Health Data Scientist focused on chronic diseases, aging, mental health, caregiving / social support, and social determinants of health.
@@ -73,8 +73,8 @@ social:
 # - Visitors
 ---
 
-I am a population health data scientist, and my research and teaching span multiple disciplines: health services research, statistics and data science, gerontology, epidemiology, health policy, and demography.
+I have held teaching, research, and consulting positions throughout higher education and health care settings. Currently, I am a Data Scientist at [Cityblock Health](http://www.cityblock.com), where I focus on evaluation and experimentation.  I previously was an Associate Professor at Smith College School for Social Work and Program on Statistical & Data Sciences. Prior to that, I held faculty and research positions in epidemiology and demography at University of Minnesota and University of North Carolina - Chapel Hill.
 
-I use large datasets and experimental studies to characterize: 1. how families provide support, including caregiving, for a family member with care needs and 2. how that support affects the caregiver’s health. I built an R package to facilitate this work, making the largest data package of caregivers data (2.3 million observations). I use causal inference methods, machine learning, and exploratory data analysis methods in other studies that focus on population aging, prevalence and distribution of health conditions that drive care needs in later life.
+In my academic research, I have used large datasets and experimental studies to characterize: 1. how families provide support, including caregiving, for a family member with care needs and 2. how that support affects the caregiver’s health. I built an R package to facilitate this work, making the largest data package of caregivers data (2.3 million observations). I have used causal inference methods, machine learning, and exploratory data analysis methods in other studies that focus on population aging, prevalence and distribution of health conditions that drive care needs in later life.
 
-My policy work has included building predictive models of population aging and mortality for state-level Medicaid long-term supports and services planning. I have also done program evaluation capacity building and student design consulting among community based organizations working toward value-based payment models for Medicaid reimbursement for their work.
+My policy work has included building predictive models of population aging and mortality for state-level Medicaid long-term supports and services planning. I have also done program evaluation capacity building and study design technical assistance among community based organizations working toward value-based payment models for Medicaid reimbursement.
