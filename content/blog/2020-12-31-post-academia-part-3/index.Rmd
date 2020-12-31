@@ -12,7 +12,7 @@ tags:
 subtitle: ''
 summary: 'Third of three parts on my move from faculty to industry, focused on some of the practical things I learned'
 authors: []
-lastmod: '2020-12-31T14:37:42-05:00'
+lastmod: '2020-12-31T16:39:00-05:00'
 featured: no
 image:
   caption: ''
@@ -20,6 +20,8 @@ image:
   preview_only: no
 projects: []
 ---
+
+I realized [I didn’t _really_ want to do what I was doing](../2020-12-28-post-academia-part-1/index.html) and what I did want.(../2020-12-28-post-academia-part-2/index.html). Here's some of the steps I took to get there.
 
 A nod to verbs-as-nouns that is now common in my daily, business vernacular, there are a lot of learnings from this process.  This is both an explainer of what worked for me and some that I offer as advice for others trying to make similar moves. It's fairly high level, not getting into the weeds of how to do a technical coding interview, but points into the direction for those.
 
@@ -45,14 +47,14 @@ This time, I used services from a group I’d seen on social media called [Work 
 
 Again, they’re on social media (especially, increasingly, [TikTok](https://www.tiktok.com/@workitdaily)), as are [many other HR experts](https://www.tiktok.com/@thehrvault) who give great advice and even resume review for free.
 
-```{r fig.align="center",  out.width = "70%", echo=FALSE, fig.cap="One of my favorite items from a previous office's 'free shelf'. I did not use it during my search."}
+```{r fig.align="center",  out.width = "50%", echo=FALSE, fig.cap="One of my favorite items from a previous office's 'free shelf'. I did not use it during my search."}
 knitr::include_graphics("ResumeBook.jpg")
 ```
 
 
 # Do coursework or tutorials to learn new skills, intentionally and sparingly
 
-I did spend time and money on Coursera courses, LinkedIn Learning, and even some workshops and conferences. (A few years ago, I would have used DataCamp, but I would strongly encourage you not to support them -- just click on the date in the twitter text below to go to the tweet). 
+I did spend time and money on Coursera courses, LinkedIn Learning, and even some workshops and conferences. (A few years ago, I would have used DataCamp, but I would strongly encourage you not to support them). 
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1337070088126681095')
@@ -78,7 +80,7 @@ People love talking about themselves and feeling helpful (Exhibit A: this 2 part
 
 If you do have a PhD and are trying to make this move, connect with folks who have either made a very similar move or have networks / communities of and resources for folks who have. Two particular favs are [Jennifer Polk](https://twitter.com/FromPhDtoLife) and [Chris Cornthwaite](https://twitter.com/cjcornthwaite) whose content includes more relevant advice for folks in other social sciences and in the humanities.
 
-Use their communities to see how much PhD folx are thriving out of academia (just click on the date in the tweet to go to the tweet/thread):
+Use their communities to see how much PhD folx are thriving out of academia:
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1340076096470048769')
