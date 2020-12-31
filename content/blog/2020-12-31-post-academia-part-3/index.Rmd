@@ -27,7 +27,7 @@ A nod to verbs-as-nouns that is now common in my daily, business vernacular, the
 
 A few of the specific resources that were instrumental for me:
 
-# Read about Data Science
+## Learn about Data Science Careers
 
 The [Build a Career in Data Science book](https://www.google.com/search?q=data+science+book+emily+robinson&oq=data+science+book+emily+robin&aqs=chrome.1.69i57j33i22i29i30l2.14020j1j7&sourceid=chrome&ie=UTF-8) from [Emily Robinson](https://twitter.com/robinson_es) and [Jacqueline Nolis](https://twitter.com/skyetetra). 
 
@@ -37,7 +37,7 @@ Throughout the book, they included interviews with many others in the industry w
 
 [Ayodele Odubele](https://twitter.com/DataSciBae) also has a book that looks extremely promising: ["Getting Started in Data Science"](https://gumroad.com/l/getting-started-in-data-science) I haven't had the chance to read it yet, but I have really enjoyed her perspective on data science as a field and career on Twitter and can only imagine the book is as good if not even better.
 
-# Get help with cover letters, resumes, and LinkedIn
+## Get help with cover letters, resumes, and LinkedIn
 
 Hiring help with writing cover letters, resume, even LinkedIn (academics really underestimate how central this is as a tool, and mine wasn’t doing me any favors) is worth the money if you can spend it. 
 
@@ -52,7 +52,7 @@ knitr::include_graphics("ResumeBook.jpg")
 ```
 
 
-# Do coursework or tutorials to learn new skills, intentionally and sparingly
+## Do coursework or tutorials to learn new skills, intentionally and sparingly
 
 I did spend time and money on Coursera courses, LinkedIn Learning, and even some workshops and conferences. (A few years ago, I would have used DataCamp, but I would strongly encourage you not to support them). 
 
@@ -64,7 +64,7 @@ In some cases, I was brushing up on concepts I hadn’t used in a while, learn m
 
 I also thought a lot about how to take this and my previous work and package it into a product, a clear example of how I used whatever to solve a problem. It wasn't going to do me any favors to say that I'd taken a Coursera course on Topic X. But saying "Here's a project I did on Topic X", even if it is a "toy" project, is useful. Make the example succinct, concrete, and as an opportunity to show how you solve problems.
 
-# Engage and grow your community
+## Engage and grow your community
 
 Ask friends, family, colleagues, fellow alumni, friends of friends, communities of like-minded folks, or anyone who you can speak to for advice and help. Basically, "network."
 
@@ -76,7 +76,7 @@ Better yet, use these conversations and communities to find referrals so that yo
 
 People love talking about themselves and feeling helpful (Exhibit A: this 2 part blog post about myself with advice on what I did so you can, too), so ask with the confidence of a mediocre white man.
 
-# Connect with others making similar moves, especially networks of other PhDs
+## Connect with others making similar moves, especially networks of other PhDs
 
 If you do have a PhD and are trying to make this move, connect with folks who have either made a very similar move or have networks / communities of and resources for folks who have. Two particular favs are [Jennifer Polk](https://twitter.com/FromPhDtoLife) and [Chris Cornthwaite](https://twitter.com/cjcornthwaite) whose content includes more relevant advice for folks in other social sciences and in the humanities.
 
@@ -87,7 +87,7 @@ blogdown::shortcode('tweet', '1340076096470048769')
 ```
 
 
-# Being active on social media to learn from others
+## Being active on social media to learn from others
 
 Just in the last few weeks, I've seen **_excellent_** threads/posts from others on this:
 
