@@ -7,8 +7,8 @@ tags:
   - Learning Theory
   - Instructional Design
   - Teaching
-subtitle: 'Reflections on sudden and more planned remote teaching in 2020.'
-summary: ''
+subtitle: ''
+summary: 'Reflections on sudden and more planned remote teaching in 2020.'
 authors: []
 lastmod: '2020-08-22T16:27:44-04:00'
 featured: no
