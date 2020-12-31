@@ -12,7 +12,7 @@ tags:
 subtitle: ''
 summary: 'Third of three parts on my move from faculty to industry, focused on some of the practical things I learned'
 authors: []
-lastmod: '2020-12-31T16:39:00-05:00'
+lastmod: '2020-12-31T16:39:20-05:00'
 featured: no
 image:
   caption: ''
@@ -21,7 +21,7 @@ image:
 projects: []
 ---
 
-I realized [I didn’t _really_ want to do what I was doing](../2020-12-28-post-academia-part-1/index.html) and what I did want.(../2020-12-28-post-academia-part-2/index.html). Here's some of the steps I took to get there.
+I realized [I didn’t _really_ want to do what I was doing](../2020-12-28-post-academia-part-1/) and what I did want.(../2020-12-28-post-academia-part-2/). Here's some of the steps I took to get there.
 
 A nod to verbs-as-nouns that is now common in my daily, business vernacular, there are a lot of learnings from this process.  This is both an explainer of what worked for me and some that I offer as advice for others trying to make similar moves. It's fairly high level, not getting into the weeds of how to do a technical coding interview, but points into the direction for those.
 
