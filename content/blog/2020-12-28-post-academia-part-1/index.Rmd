@@ -23,7 +23,7 @@ projects: []
 
 I recently made a job and career shift that by many measures was unusual -- from a tenured, Associate Professor to a Data Scientist at a health care tech startup. To some, especially those in academia, this kind of move seemed surprising to say the least. Tenure was the dream, right? After the dissertation itself, a tenured faculty position was academia’s main measure of success for someone with a Ph.D. It’s how academics are socialized, and it is hard to imagine someone with a Ph.D. who wouldn’t agree that this is the predominant message you’re given throughout your degree. So much so that anything other that this route is an “alt-ac” job: an alternate to the default of academia. On a more practical level, tenure meant a job for life. And I had been fortunate to have spent my career at a well-regarded and highly ranked institutions, no less, including where I received tenure and recently left. What gives?
 
-This blog post is one piece of that answer -- essentially explaining some of _why_ I made this shift. I have two [subsequent](../2020-12-28-post-academia-part-2/) [posts]((../2020-12-31-post-academia-part-3/)) that focus more on _how_ I made the shift, with some reflections about the process and lessons learned for others who may be interested.
+This blog post is one piece of that answer -- essentially explaining some of _why_ I made this shift. I have two [subsequent](../post-academia-part-2/) [posts](../post-academia-part-3/) that focus more on _how_ I made the shift, with some reflections about the process and lessons learned for others who may be interested.
 
 ```{r fig.align="center",  out.width = "30%", fig.cap="I will never wear this polyester nonsense garb again!", echo=FALSE}
 knitr::include_graphics("regalia.jpg")

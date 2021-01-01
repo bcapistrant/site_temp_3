@@ -5,7 +5,7 @@ date: '2020-12-31'
 slug: post-academia-part-2
 categories: []
 tags:
-  - Career
+  - Career 
   - Data Science
   - Professional
   - Academia
@@ -21,7 +21,7 @@ image:
 projects: []
 ---
 
-I realized [I didn’t _really_ want to do what I was doing](../2020-12-28-post-academia-part-1/) in Part 1. But that didn’t yet mean I knew what I did want. Or how to get it, [coming up in Part 3](../2020-12-31-post-academia-part-3/).
+I realized [I didn’t _really_ want to do what I was doing](../-post-academia-part-1/) in Part 1. But that didn’t yet mean I knew what I did want. Or how to get it, [coming up in Part 3](../post-academia-part-3/).
 
 Initially, I really reveled in the power of the clarity I had just stumbled on: I knew what I didn’t want. The moments in my life of naming truths, a diagnosis of a nascent issue that I didn’t know (or couldn’t see) as not working for me, had often been profound. This was no different. I had gotten jobs before - from busboy to faculty member - and had some self-confidence that I could do that again. Fortunately, I was in a position where I didn’t need to rush any process to figure out what was next or make any decision.
 
@@ -55,5 +55,5 @@ knitr::include_graphics("peaklilac.JPG")
 
 I also learned a lot about the process of finding a job and navigating this big, wide world. I knew how to apply for an interview for academic jobs, how to format a CV, how to give a research and teaching talk, what the cycle and pace of that process would be. But everything else felt foreign. Oh, LinkedIn is actually a thing? What goes into a resume, and what makes a good one?  
 
-I'll talk through some of the specific things that I learned, resources I used, and advice I'd offer others trying to make a similar move in [the next blog post.](../2020-12-31-post-academia-part-3/) Some will be specific to data science, and other pieces more relevant for people with PhDs, and hopefully useful to someone in either situation.
+I'll talk through some of the specific things that I learned, resources I used, and advice I'd offer others trying to make a similar move in [the next blog post.](../post-academia-part-3/) Some will be specific to data science, and other pieces more relevant for people with PhDs, and hopefully useful to someone in either situation.
 
