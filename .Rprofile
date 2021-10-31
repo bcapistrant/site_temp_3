@@ -1,6 +1,6 @@
 
 options(
-  blogdown.author = "Ben Capistrant",
+  blogdown.author = "Bea Capistrant",
   blogdown.ext = ".Rmd",
   blogdown.subdir = "blog",
   blogdown.yaml.empty = TRUE,

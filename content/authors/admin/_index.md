@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ben Capistrant
+title: Bea Capistrant
 
 # Username (this should match the folder name)
 authors:
@@ -27,10 +27,10 @@ interests:
 
 education:
   courses:
-  - course: ScD in Social and Behavioral Sciences
+  - course: PhD in Social and Behavioral Sciences
     institution: Harvard University
     year: 2012
-  - course: ScM in Social and Behavioral Sciences
+  - course: MS in Social and Behavioral Sciences
     institution: Harvard University
     year: 2008
   - course: BA in History & Political Science
@@ -47,7 +47,7 @@ social:
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/bencapistrant
+  link: https://twitter.com/b_capistrant
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&pli=1&user=987QJWYAAAAJ
@@ -56,12 +56,12 @@ social:
   link: https://instagram.com/bcapistrant
 - icon: github
   icon_pack: fab
-  link: https://github.com/bencapistrant
+  link: https://github.com/bcapistrant
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  # - icon: cv
  #   icon_pack: ai
- #   link: files/Capistrant_Resume_20200825.pdf
+ #   link: files/Capistrant_Resume_20211101.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: ""

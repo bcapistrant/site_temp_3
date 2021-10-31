@@ -1,6 +1,6 @@
 ---
 title: "Post-Academia, Part 2: What do I want & How do I get there?"
-author: Ben Capistrant
+author: Bea Capistrant
 date: '2020-12-31'
 slug: post-academia-part-2
 categories: []

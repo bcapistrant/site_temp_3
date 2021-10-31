@@ -1,6 +1,6 @@
 ---
 title: Comparative Salaries in Academia
-author: Benjamin Capistrant
+author: Bea Capistrant
 date: '2020-10-10'
 categories: []
 tags: []

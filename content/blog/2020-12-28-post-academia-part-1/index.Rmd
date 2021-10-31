@@ -1,6 +1,6 @@
 ---
 title: "Post-Academia, Part 1: It's not you, it's me"
-author: Ben Capistrant
+author: Bea Capistrant
 date: '2020-12-28'
 slug: post-academia-part-1
 categories: []

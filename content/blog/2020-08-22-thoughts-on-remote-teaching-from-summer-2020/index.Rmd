@@ -1,6 +1,6 @@
 ---
 title: Thoughts on Remote Teaching from Spring & Summer 2020
-author: Benjamin Capistrant
+author: Bea Capistrant
 date: '2020-08-22'
 categories: []
 tags:
