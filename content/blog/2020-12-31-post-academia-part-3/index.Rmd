@@ -57,7 +57,7 @@ knitr::include_graphics("ResumeBook.jpg")
 I did spend time and money on Coursera courses, LinkedIn Learning, and even some workshops and conferences. (A few years ago, I would have used DataCamp, but I would strongly encourage you not to support them). 
 
 ```{r echo=FALSE}
-blogdown::shortcode('tweet', '1337070088126681095')
+blogdown::shortcode('tweet', '1129294229358895105')
 ```
 
 In some cases, I was brushing up on concepts I hadn’t used in a while, learn more deeply about things I’d heard about (Agile processes, Machine Learning, NLP), and develop skills with software and languages that I didn’t know well (SQL, Python in my case). I also started exploring health care claims data, using freely available claims and EMR data. I treated it like a part time job -- it felt like studying for the GREs as a part time job and way to get ready for grad school -- and found learning fun rather than just highlighting all of the things I didn’t know. True to form, I planned overly-ambitiously -- I was going to finish multiple certificates or learning paths -- and scaled back over time.
