@@ -29,11 +29,7 @@ This post introduces some of the workshop's assets --- namely, 1. a <a href="dat
 
 ## How to find relevant data?
 
-Most data that are relevant for health tech & healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet --- and some agencies more than others.
-
-```{r fig.align="center", out.width = "100%", fig.cap="What agencies have relevant data?", echo=FALSE}
-knitr::include_graphics("data_org_chart.png")
-```
+Most data that are relevant for health tech & healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet --- and <a href="data_org_chart.png" target="_blank">some agencies more than others.</a>
 
 Across those agencies, there are a few common data sources that can be organized by general topic or type of data. In the best case, everyone has a data colleague to ping with an actual quick question (so few QQs to a data team are actually quick) of where to start. I made this workflow diagram as a static substitute for that ideal, but unlikely, scenario of having someone to ask.
 
