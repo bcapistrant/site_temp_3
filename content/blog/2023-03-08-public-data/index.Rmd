@@ -31,13 +31,13 @@ This post introduces some of the workshop's assets --- namely, 1. a [framework](
 
 Most data that are relevant for health tech & healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet --- and some agencies more than others.
 
-```{r org_chart, fig.align="center",  out.width = "100%", fig.cap="What agencies have the goods?", echo=FALSE}
+```{r org_chart, fig.align="center", out.width = "100%", fig.cap="What agencies have relevant data?", echo=FALSE}
 knitr::include_graphics("data_org_chart.png")
 ```
 
 Across those agencies, there are a few common data sources that can be organized by topic or type of data. In an attempt to create a static way to guide someone toward the more relevant data for their question or use case, I made this workflow diagram that someone could walk through to identify a good place to start.
 
-```{r decision_tree, echo=FALSE, fig.cap="What kind of goods do you need?", fig.align="center", out.width="100%"}
+```{r decision_tree, echo=FALSE, fig.cap="What kind of data do you need?", fig.align="center", out.width="100%"}
 knitr::include_graphics("data_decisiontree.png")
 ```
 
