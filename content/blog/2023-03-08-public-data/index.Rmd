@@ -31,13 +31,13 @@ This post introduces some of the workshop's assets --- namely, 1. a framework to
 
 Most data that are relevant for health tech & healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet --- and some agencies more than others.
 
-```{r fig.align="center",  out.width = "50%", fig.cap="What agencies have the goods?", echo=FALSE}
+```{r fig.align="center",  out.width = "100%", fig.cap="What agencies have the goods?", echo=FALSE}
 knitr::include_graphics("data_org_chart.png")
 ```
 
 Across those agencies, there are a few common data sources that can be organized by topic or type of data. In an attempt to create a static way to guide someone toward the more relevant data for their question or use case, I made this workflow diagram that someone could walk through to identify a good place to start.
 
-```{r fig.align="center",  out.width = "50%", fig.cap="What kind of goods do you need?", echo=FALSE}
+```{r fig.align="center",  out.width = "100%", fig.cap="What kind of goods do you need?", echo=FALSE}
 knitr::include_graphics("data_decisiontree.svg")
 ```
 
@@ -57,13 +57,23 @@ After a data source has been identified just by general topic alone, there are m
 
 And with this specific user --- someone in product, ops, or strategy who needs a quick answer without the hassle of raw data --- in mind, is there an online analysis tool? Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.
 
-```{r fig.align="center",  out.width = "50%", fig.cap="What's in the data?", echo=FALSE}
+```{r fig.align="center",  out.width = "100%", fig.cap="What's in the data?", echo=FALSE}
 knitr::include_graphics("data_factors.png")
 ```
 
-I made [a table](https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing) with all of this information for the studies in the diagram above.
+I made [a table](https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing) with all of this information for the studies in the diagram above. The surveys with visualization tools and query functions are:
 
-### Can you analyze it online?
+- Behavioral Risk Factor Surveillance System ([BRFSS](https://www.cdc.gov/brfss/data_tools.htm))
+- National Health and Nutrition Examination Survey ([NHANES](https://www.cdc.gov/nchs/nhanes/visualization/))
+- Medical Expenditure Panel Survey (MEPS): [Household](https://datatools.ahrq.gov/meps-hc) or [Individual](https://datatools.ahrq.gov/meps-ic) Data
+- Consumer Assessment of Healthcare Providers and Systems ([CAHPS](https://datatools.ahrq.gov/cahps))
+- Healthcare Costs & Utilization Project ([HCUP](https://datatools.ahrq.gov/hcupnet-dua))
+- National Study on Drug Use and Health ([NSDUH](https://pdas.samhsa.gov/#/))
+- National Health Interview Survey ([NHIS](https://www.cdc.gov/nchs/nhis/shs.htm))
+- [National Survey of Childrens' Health](https://www.childhealthdata.org/)
+- Yourh Risk Behavior Survey System ([YRBSS](https://nccd.cdc.gov/Youthonline/App/Default.aspx))
+
+### What can you get from these online analysis tools?
 As a glimpse of what some of these analysis tools look like and some kinds of common features, BRFSS is a good example. It has the largest sample size and the best capacity for a state or metro-area analysis of the other studies. The [Prevalence and Trends Data Tool](https://www.cdc.gov/brfss/brfssprevalence/index.html) allows users to select one of the survey questions and see the state average responses displayed in a map, graph, or table. There are some additional features for more detailed analyses:
 
 -   Age Adjustment: some states' residents are older/younger than others. This tool will account for age in the prevalence estimate, which makes more even comparisons between states.
@@ -71,7 +81,7 @@ As a glimpse of what some of these analysis tools look like and some kinds of co
 -   Look at specific answers: Some questions have multiple answers that get at different nuances of the question, like diabetes that captures gestational and pre-diabetes that you may want to have separate from a straight yes/no. Even of the questions are just yes/no, you may be more interested in one of those options over the other. This lets you pick which answer option you're interested in.
 -   Metro Area analyses: You can explore the data another level below states, at the Major Metropolitan Statistical Areas (MMSAs) that are an administrative grouping of population-dense urban and suburban areas.
 
-```{r fig.align="center",  out.width = "50%", fig.cap="What's in the data?", echo=FALSE}
+```{r fig.align="center",  out.width = "100%", fig.cap="What's in the data?", echo=FALSE}
 knitr::include_graphics("data_benchmarking.png")
 ```
 
@@ -110,3 +120,5 @@ I imagine that some extensions to this work might be:
 -   Creating new tools: analysts who do work with the original raw data could prioritize extending existing tools with interactive dashboard tools like [Shiny](https://shiny.rstudio.com/) and [Plotly](https://plotly.com/)
 
 ## Wrapping it up
+
+There is lots of data, generally from federally funded surveys, that can serve common business needs in healthcare and health tech. Two use cases -- benchmarking your prevalence against an average, and identifying the market size for a new product -- are particularly well suited to quick answers that many common data sources have. The decision tree and table of surveys and their contents hopefully help find a useful solution more quickly. Most surveys have an online analysis tools that will do the job for basic uses, and it's worth getting to know one or two of these tools to get these sort of estimates fast and easily. They aren't perfect, but they're definitely better than nothing and can do enough not to have to make a ticket with the data team or do dust off old intro stats programming knowledge to get there with the raw data.

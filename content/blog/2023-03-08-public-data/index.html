@@ -28,14 +28,14 @@ projects: []
 <h2>How to find relevant data?</h2>
 <p>Most data that are relevant for health tech &amp; healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet — and some agencies more than others.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
-<img src="data_org_chart.png" alt="What agencies have the goods?" width="50%" />
+<img src="data_org_chart.png" alt="What agencies have the goods?" width="100%" />
 <p class="caption">
 Figure 1: What agencies have the goods?
 </p>
 </div>
 <p>Across those agencies, there are a few common data sources that can be organized by topic or type of data. In an attempt to create a static way to guide someone toward the more relevant data for their question or use case, I made this workflow diagram that someone could walk through to identify a good place to start.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="data_decisiontree.svg" alt="What kind of goods do you need?" width="50%" />
+<img src="data_decisiontree.svg" alt="What kind of goods do you need?" width="100%" />
 <p class="caption">
 Figure 2: What kind of goods do you need?
 </p>
@@ -62,14 +62,25 @@ Figure 2: What kind of goods do you need?
 <p>After a data source has been identified just by general topic alone, there are many dimensions and factors of the data that may well be important to consider about each source. For example, what’s the sample size? How often are data collected? Is the study design longitudinal with multiple surveys of the same person over time or a a cross-sectional snapshot of a different sample of people every time?</p>
 <p>And with this specific user — someone in product, ops, or strategy who needs a quick answer without the hassle of raw data — in mind, is there an online analysis tool? Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
-<img src="data_factors.png" alt="What's in the data?" width="50%" />
+<img src="data_factors.png" alt="What's in the data?" width="100%" />
 <p class="caption">
 Figure 3: What’s in the data?
 </p>
 </div>
-<p>I made <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing">a table</a> with all of this information for the studies in the diagram above.</p>
-<div id="can-you-analyze-it-online" class="section level3">
-<h3>Can you analyze it online?</h3>
+<p>I made <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing">a table</a> with all of this information for the studies in the diagram above. The surveys with visualization tools and query functions are:</p>
+<ul>
+<li>Behavioral Risk Factor Surveillance System (<a href="https://www.cdc.gov/brfss/data_tools.htm">BRFSS</a>)</li>
+<li>National Health and Nutrition Examination Survey (<a href="https://www.cdc.gov/nchs/nhanes/visualization/">NHANES</a>)</li>
+<li>Medical Expenditure Panel Survey (MEPS): <a href="https://datatools.ahrq.gov/meps-hc">Household</a> or <a href="https://datatools.ahrq.gov/meps-ic">Individual</a> Data</li>
+<li>Consumer Assessment of Healthcare Providers and Systems (<a href="https://datatools.ahrq.gov/cahps">CAHPS</a>)</li>
+<li>Healthcare Costs &amp; Utilization Project (<a href="https://datatools.ahrq.gov/hcupnet-dua">HCUP</a>)</li>
+<li>National Study on Drug Use and Health (<a href="https://pdas.samhsa.gov/#/">NSDUH</a>)</li>
+<li>National Health Interview Survey (<a href="https://www.cdc.gov/nchs/nhis/shs.htm">NHIS</a>)</li>
+<li><a href="https://www.childhealthdata.org/">National Survey of Childrens’ Health</a></li>
+<li>Yourh Risk Behavior Survey System (<a href="https://nccd.cdc.gov/Youthonline/App/Default.aspx">YRBSS</a>)</li>
+</ul>
+<div id="what-can-you-get-from-these-online-analysis-tools" class="section level3">
+<h3>What can you get from these online analysis tools?</h3>
 <p>As a glimpse of what some of these analysis tools look like and some kinds of common features, BRFSS is a good example. It has the largest sample size and the best capacity for a state or metro-area analysis of the other studies. The <a href="https://www.cdc.gov/brfss/brfssprevalence/index.html">Prevalence and Trends Data Tool</a> allows users to select one of the survey questions and see the state average responses displayed in a map, graph, or table. There are some additional features for more detailed analyses:</p>
 <ul>
 <li>Age Adjustment: some states’ residents are older/younger than others. This tool will account for age in the prevalence estimate, which makes more even comparisons between states.</li>
@@ -78,7 +89,7 @@ Figure 3: What’s in the data?
 <li>Metro Area analyses: You can explore the data another level below states, at the Major Metropolitan Statistical Areas (MMSAs) that are an administrative grouping of population-dense urban and suburban areas.</li>
 </ul>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
-<img src="data_benchmarking.png" alt="What's in the data?" width="50%" />
+<img src="data_benchmarking.png" alt="What's in the data?" width="100%" />
 <p class="caption">
 Figure 4: What’s in the data?
 </p>
@@ -132,4 +143,5 @@ Figure 4: What’s in the data?
 </div>
 <div id="wrapping-it-up" class="section level2">
 <h2>Wrapping it up</h2>
+<p>There is lots of data, generally from federally funded surveys, that can serve common business needs in healthcare and health tech. Two use cases – benchmarking your prevalence against an average, and identifying the market size for a new product – are particularly well suited to quick answers that many common data sources have. The decision tree and table of surveys and their contents hopefully help find a useful solution more quickly. Most surveys have an online analysis tools that will do the job for basic uses, and it’s worth getting to know one or two of these tools to get these sort of estimates fast and easily. They aren’t perfect, but they’re definitely better than nothing and can do enough not to have to make a ticket with the data team or do dust off old intro stats programming knowledge to get there with the raw data.</p>
 </div>
