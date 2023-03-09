@@ -25,20 +25,20 @@ I recently hosted a workshop on publicly available at sources for health data, w
 
 This session, instead, was informed my sense of what people in product, operators, and strategy roles at healthcare and health tech companies need. People in these roles need to get an answer quickly, often broken down by 1 or 2 factors but not needing a more complex statistical analysis, prioritizing practical and business impact over capital-"S" science impact, and ideally doing it themselves without a data team or using statistical software. Since they aren't regularly working with data sources like these, they may benefit even more from guides on where and how to start.
 
-This post introduces some of the workshop's assets --- namely, 1. a framework to identify relevant data sources and 2. a catalog of some of those datasets' features --- and explains how they might be useful to someone wanting to get a quick answer with relatively low lift.
+This post introduces some of the workshop's assets --- namely, 1. a [framework](data_decisiontree.png) to identify relevant data sources and 2. a [catalog](https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing) of some of those datasets' features --- and explains how they might be useful to someone wanting to get a quick answer with relatively low lift.
 
 ## How to find relevant data?
 
 Most data that are relevant for health tech & healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet --- and some agencies more than others.
 
-```{r fig.align="center",  out.width = "100%", fig.cap="What agencies have the goods?", echo=FALSE}
+```{r org_chart fig.align="center",  out.width = "100%", fig.cap="What agencies have the goods?", echo=FALSE}
 knitr::include_graphics("data_org_chart.png")
 ```
 
 Across those agencies, there are a few common data sources that can be organized by topic or type of data. In an attempt to create a static way to guide someone toward the more relevant data for their question or use case, I made this workflow diagram that someone could walk through to identify a good place to start.
 
-```{r fig.align="center",  out.width = "150%", fig.cap="What kind of goods do you need?", echo=FALSE}
-knitr::include_graphics("data_decisiontree.svg")
+```{r decision_tree, echo=FALSE, fig.cap="What kind of goods do you need?", decision_tree fig.align="center", out.width="100%"}
+knitr::include_graphics("data_decisiontree.png")
 ```
 
 Essentially the question points are:
@@ -57,7 +57,7 @@ After a data source has been identified just by general topic alone, there are m
 
 And with this specific user -- someone in product, ops, or strategy who needs a quick answer without the hassle of raw data -- in mind, is there an online analysis tool? Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.
 
-```{r fig.align="center",  out.width = "100%", fig.cap="What's in the data?", echo=FALSE}
+```{r data_factors fig.align="center",  out.width = "100%", fig.cap="What's in the data?", echo=FALSE}
 knitr::include_graphics("data_factors.png")
 ```
 
