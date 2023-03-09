@@ -23,21 +23,21 @@ projects: []
 <p>One truth of the “big data” cliche is that the vastness of data sources can be daunting — where should you even start? And once you know, how can you get relatively straightforward insights from those data without the hassle of working with the raw data? Some online analysis tools are quite easy to use and helpful; others are rather lacking; and some federal survey data still do not have any analysis tool other than downloading data files and using statistical software to extract findings.</p>
 <p>I recently hosted a workshop on publicly available at sources for health data, which forced me to create some frameworks and assets to help people find relevant data sources for their use case. I had worked with many of these data sources in my own research or while teaching courses that involved an original public health data analysis. In most academic research uses of these data, an analyst is working with raw data to fit a multivariable analysis sufficiently complex for a 3000+ word peer-reviewed journal article submission. Academic researchers in public health and health services research often know the most common datasets quite well — so much that their acronyms are part of the industry jargon.</p>
 <p>This session, instead, was informed my sense of what people in product, operators, and strategy roles at healthcare and health tech companies need. People in these roles need to get an answer quickly, often broken down by 1 or 2 factors but not needing a more complex statistical analysis, prioritizing practical and business impact over capital-“S” science impact, and ideally doing it themselves without a data team or using statistical software. Since they aren’t regularly working with data sources like these, they may benefit even more from guides on where and how to start.</p>
-<p>This post introduces some of the workshop’s assets — namely, 1. a framework to identify relevant data sources and 2. a catalog of some of those datasets’ features — and explains how they might be useful to someone wanting to get a quick answer with relatively low lift.</p>
+<p>This post introduces some of the workshop’s assets — namely, 1. a <a href="data_decisiontree.png">framework</a> to identify relevant data sources and 2. a <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing">catalog</a> of some of those datasets’ features — and explains how they might be useful to someone wanting to get a quick answer with relatively low lift.</p>
 <div id="how-to-find-relevant-data" class="section level2">
 <h2>How to find relevant data?</h2>
 <p>Most data that are relevant for health tech &amp; healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet — and some agencies more than others.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<div class="figure" style="text-align: center">
 <img src="data_org_chart.png" alt="What agencies have the goods?" width="100%" />
 <p class="caption">
-Figure 1: What agencies have the goods?
+(#fig:org_chart)What agencies have the goods?
 </p>
 </div>
 <p>Across those agencies, there are a few common data sources that can be organized by topic or type of data. In an attempt to create a static way to guide someone toward the more relevant data for their question or use case, I made this workflow diagram that someone could walk through to identify a good place to start.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="data_decisiontree.svg" alt="What kind of goods do you need?" width="150%" />
+<div class="figure" style="text-align: center">
+<img src="data_decisiontree.png" alt="What kind of goods do you need?" width="100%" />
 <p class="caption">
-Figure 2: What kind of goods do you need?
+(#fig:decision_tree)What kind of goods do you need?
 </p>
 </div>
 <p>Essentially the question points are:</p>
@@ -61,10 +61,10 @@ Figure 2: What kind of goods do you need?
 <h2>What <em>are</em> the data? And can you analyze it online?</h2>
 <p>After a data source has been identified just by general topic alone, there are many dimensions and factors of the data that may well be important to consider about each source. For example, what’s the sample size? How often are data collected? Is the study design longitudinal with multiple surveys of the same person over time or a a cross-sectional snapshot of a different sample of people every time?</p>
 <p>And with this specific user – someone in product, ops, or strategy who needs a quick answer without the hassle of raw data – in mind, is there an online analysis tool? Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<div class="figure" style="text-align: center">
 <img src="data_factors.png" alt="What's in the data?" width="100%" />
 <p class="caption">
-Figure 3: What’s in the data?
+(#fig:data_factors)What’s in the data?
 </p>
 </div>
 <p>I made <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing">a table</a> with all of this information for the studies in the diagram above.</p>
@@ -89,10 +89,10 @@ Figure 3: What’s in the data?
 <li>Look at specific answers: Some questions have multiple answers that get at different nuances of the question, like diabetes that captures gestational and pre-diabetes that you may want to have separate from a straight yes/no. Even of the questions are just yes/no, you may be more interested in one of those options over the other. This lets you pick which answer option you’re interested in.</li>
 <li>Metro Area analyses: You can explore the data another level below states, at the Major Metropolitan Statistical Areas (MMSAs) that are an administrative grouping of population-dense urban and suburban areas.</li>
 </ul>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
 <img src="data_benchmarking.png" alt="What's in the data?" width="100%" />
 <p class="caption">
-Figure 4: What’s in the data?
+Figure 1: What’s in the data?
 </p>
 </div>
 </div>
