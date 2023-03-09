@@ -35,15 +35,7 @@ During the last part of my professional chapter in academia, I spent time teachi
 
 Which queued the imposter syndrome cacophony: I didn’t have a degree in statistics or any formal background in computer science. I had never been trained formally in SQL or worked much with databases. Although I was a pretty adept applied statistician and had lots of expertise with regression models, my math background left lots to be desired. While I was familiar with many of them by name, I hadn’t used lots of the other methods under the machine learning umbrella. I had previously been rejected from a well known data science bootcamp program -- how was I going to get a job if I couldn’t even get into a bootcamp? I knew more about choral ensembles than ensemble models (I went to a performing arts high school where I was a voice major... chorus conflicted with AP Calculus, so I never took calculus. See what I meant about my math background?). I had never worked with health care claims data. AND I DIDN’T KNOW PYTHON! 
 
-```{r fig.align="center",  out.width = "70%", echo=FALSE, fig.cap="Me in the hometown newspaper for being in All-State Chorus, as a teenager/bby, with lots of hair."}
-knitr::include_graphics("allstate.jpg")
-```
-
 Fortunately, I also had skills and people in my life to help me turn down the volume on that noise and remind me of my (many) strengths. That maybe I didn’t need that second master’s degree before I could get this job. That I could reframe a lot of my experience teaching and on research teams as being a methodological project lead and mentoring junior data scientists. That my conference presentations and publications, not to mention teaching, illustrated skills in communicating complex content quickly and succinctly. That having won grants meant I could successfully craft compelling research questions and proposed solutions that others saw as valuable. That I didn’t need to spend 6 months perfecting CSS or retrofitting multiple projects into a perfect website portfolio of my work. That I already had people in my network that I could reach out to for advice, help, and job leads.
-
-```{r fig.align="center",  out.width = "70%", echo=FALSE, fig.cap="Sometimes I leave said conference presentations early to go watch baseball."}
-knitr::include_graphics("conference_baseball.JPG")
-```
 
 I got a lot of help and advice of how practically to get there. I found jobs that weren't quite data science but very similar and really interesting. I took as many meetings and had as many conversations as I could. It was a great time to explore.
 
