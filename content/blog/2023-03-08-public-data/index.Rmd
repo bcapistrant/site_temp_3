@@ -37,7 +37,7 @@ knitr::include_graphics("data_org_chart.png")
 
 Across those agencies, there are a few common data sources that can be organized by topic or type of data. In an attempt to create a static way to guide someone toward the more relevant data for their question or use case, I made this workflow diagram that someone could walk through to identify a good place to start.
 
-```{r fig.align="center",  out.width = "100%", fig.cap="What kind of goods do you need?", echo=FALSE}
+```{r fig.align="center",  out.width = "150%", fig.cap="What kind of goods do you need?", echo=FALSE}
 knitr::include_graphics("data_decisiontree.svg")
 ```
 
@@ -55,13 +55,15 @@ Essentially the question points are:
 
 After a data source has been identified just by general topic alone, there are many dimensions and factors of the data that may well be important to consider about each source. For example, what's the sample size? How often are data collected? Is the study design longitudinal with multiple surveys of the same person over time or a a cross-sectional snapshot of a different sample of people every time?
 
-And with this specific user --- someone in product, ops, or strategy who needs a quick answer without the hassle of raw data --- in mind, is there an online analysis tool? Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.
+And with this specific user -- someone in product, ops, or strategy who needs a quick answer without the hassle of raw data -- in mind, is there an online analysis tool? Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.
 
 ```{r fig.align="center",  out.width = "100%", fig.cap="What's in the data?", echo=FALSE}
 knitr::include_graphics("data_factors.png")
 ```
 
-I made [a table](https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing) with all of this information for the studies in the diagram above. The surveys with visualization tools and query functions are:
+I made [a table](https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing) with all of this information for the studies in the diagram above.
+
+The surveys with visualization tools and query functions are:
 
 - Behavioral Risk Factor Surveillance System ([BRFSS](https://www.cdc.gov/brfss/data_tools.htm))
 - National Health and Nutrition Examination Survey ([NHANES](https://www.cdc.gov/nchs/nhanes/visualization/))
