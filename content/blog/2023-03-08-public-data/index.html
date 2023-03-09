@@ -27,14 +27,14 @@ projects: []
 <div id="how-to-find-relevant-data" class="section level2">
 <h2>How to find relevant data?</h2>
 <p>Most data that are relevant for health tech &amp; healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet — and <a href="data_org_chart.png" target="_blank">some agencies more than others.</a></p>
-<p>Across those agencies, there are a few common data sources that can be organized by general topic or type of data. In the best case, everyone has a data colleague to ping with an actual quick question (so few QQs to a data team are actually quick) of where to start. I made this workflow diagram as a static substitute for that ideal, but unlikely, scenario of having someone to ask.</p>
+<p>Across those agencies, there are a few common data sources that can be organized by general topic or type of data. In the best case, everyone has a data colleague to ping with an actual quick question (so few QQs to a data team are actually quick) of where to start. I made this <a href="data_decisiontree.png" target="_blank">workflow diagran / framework</a> as a static substitute for that ideal, but unlikely, scenario of having someone to ask.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
 <img src="data_decisiontree.png" alt="What kind of data do you need?" width="100%" />
 <p class="caption">
 Figure 1: What kind of data do you need?
 </p>
 </div>
-<p>Essentially the question points are:</p>
+<p>This <a href="data_decisiontree.png" target="_blank">version</a> will open the figure in a new window so you can zoom in. Essentially the question points are:</p>
 <ul>
 <li>Who do you want data on: patients/people or providers/institutions?</li>
 <li>What level of geographic specificity do you need: state-level or national?</li>
@@ -64,7 +64,7 @@ Figure 2: What’s in the data?
 <p>And with this specific user – again, someone in product, ops, or strategy who needs a quick answer without the hassle of raw data – in mind, <em>is there an online analysis tool?</em> Which places can you get a good (enough) answer (relatively) quickly and easily? Many, though not all, surveys have some such tool.</p>
 <p><em>The surveys with visualization tools and query functions are:</em></p>
 <ul>
-<li>Behavioral Risk Factor Surveillance System (&lt;a href=“<a href="https://www.cdc.gov/brfss/data_tools.htm" class="uri">https://www.cdc.gov/brfss/data_tools.htm</a>” target=“_blank”}&gt;BRFSS</a>)</li>
+<li>Behavioral Risk Factor Surveillance System (<a href="https://www.cdc.gov/brfss/data_tools.htm" target="_blank">BRFSS</a>)</li>
 <li>National Health and Nutrition Examination Survey (<a href="https://www.cdc.gov/nchs/nhanes/visualization/" target="_blank">NHANES</a>)</li>
 <li>Medical Expenditure Panel Survey (MEPS): <a href="https://datatools.ahrq.gov/meps-hc" target="_blank">Household</a> or <a href="https://datatools.ahrq.gov/meps-ic" target="_blank">Individual</a> Data</li>
 <li>Consumer Assessment of Healthcare Providers and Systems (<a href="https://datatools.ahrq.gov/cahps" target="_blank">CAHPS</a>)</li>
@@ -76,7 +76,7 @@ Figure 2: What’s in the data?
 </ul>
 <div id="what-can-you-get-from-these-online-analysis-tools" class="section level3">
 <h3>What can you get from these online analysis tools?</h3>
-<p>As a glimpse of what some of these analysis tools look like and some kinds of common features, BRFSS is a good example. It has the largest sample size and the best capacity for a state or metro-area analysis of the other studies. The &lt;a href=“<a href="https://www.cdc.gov/brfss/brfssprevalence/index.html" class="uri">https://www.cdc.gov/brfss/brfssprevalence/index.html</a>” target=“_blank”}&gt;Prevalence and Trends Data Tool</a> allows users to select one of the survey questions and see the state average responses displayed in a map, graph, or table. There are some additional features for more detailed analyses:</p>
+<p>As a glimpse of what some of these analysis tools look like and some kinds of common features, BRFSS is a good example. It has the largest sample size and the best capacity for a state or metro-area analysis of the other studies. The <a href="https://www.cdc.gov/brfss/brfssprevalence/index.html" target="_blank">Prevalence and Trends Data Tool</a> allows users to select one of the survey questions and see the state average responses displayed in a map, graph, or table. There are some additional features for more detailed analyses:</p>
 <ul>
 <li><em>Age Adjustment</em>: some states’ residents are older/younger than others. This tool will account for age in the prevalence estimate, which makes more even comparisons between states.</li>
 <li><em>Break down average by sociodemographic factors</em>: you can go one level deeper and get estimates by one of a few demographic factors like age, gender, race/ethnicity or socioeconomic factors like education and household income.</li>
@@ -132,11 +132,11 @@ Figure 3: What’s in the data?
 <ul>
 <li><em>Getting more specific:</em> identifying common use cases to make even more precise recommendation</li>
 <li><em>Evaluating the analysis tools:</em> it might be helpful to develop and apply an evaluation framework of the analysis tools to guide users how to balance a survey’s content and its analysis tool’s usability</li>
-<li><em>Creating new tools:</em> analysts who do work with the original raw data could prioritize extending existing tools with interactive dashboard tools like <a href="https://shiny.rstudio.com/" target="_blank">Shiny</a> or &lt;a href=“<a href="https://plotly.com/" class="uri">https://plotly.com/</a> target=”_blank”&gt;Plotly</a>.</li>
+<li><em>Creating new tools:</em> analysts who do work with the original raw data could prioritize extending existing tools with interactive dashboard tools like <a href="https://shiny.rstudio.com/" target="_blank">Shiny</a> or <a href="https://plotly.com/" target="_blank">Plotly</a>.</li>
 <li><em>Adding additional data:</em> message me if you have other data sources you think should be included</li>
 </ul>
 </div>
 <div id="wrapping-it-up" class="section level2">
 <h2>Wrapping it up</h2>
-<p>There is lots of data, generally from federally funded surveys, that can serve common business needs in healthcare and health tech. Two use cases – benchmarking your prevalence against an average, and identifying the market size for a new product – are particularly well suited to quick answers that many common data sources have. *The &lt;a href=“data_decisiontree.png target=”_blank”&gt;decision tree</a> and <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing" target="_blank">table/catalog</a> of surveys and their contents hopefully help find a useful solution more quickly.* Most surveys have an online analysis tools that will do the job for basic uses, and it’s worth getting to know one or two of these tools to get these sort of estimates fast and easily. They aren’t perfect, but they’re definitely better than nothing – and can avoid bugging your data team or dusting off old intro stats programming knowledge to get there yourself with the raw data.</p>
+<p>There is lots of data, generally from federally funded surveys, that can serve common business needs in healthcare and health tech. Two use cases – benchmarking your prevalence against an average, and identifying the market size for a new product – are particularly well suited to quick answers that many common data sources have. <em>The <a href="data_decisiontree.png" target="_blank">decision tree</a> and <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing" target="_blank">table/catalog</a> of surveys and their contents hopefully help find a useful solution more quickly.</em> Most surveys have an online analysis tools that will do the job for basic uses, and it’s worth getting to know one or two of these tools to get these sort of estimates fast and easily. They aren’t perfect, but they’re definitely better than nothing – and can avoid bugging your data team or dusting off old intro stats programming knowledge to get there yourself with the raw data.</p>
 </div>
