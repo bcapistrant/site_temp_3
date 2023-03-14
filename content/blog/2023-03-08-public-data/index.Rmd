@@ -31,7 +31,7 @@ This post introduces some of the workshop's assets --- namely, 1. a <a href="dat
 
 Most data that are relevant for health tech & healthcare startups come from organizations within the US Department of Health and Human Services (HHS). There are some ancillary data from other agencies that could be helpful for more general demographic and economic questions, but for most part the HHS agencies are likely going to be the best bet --- and <a href="data_org_chart.png" target="_blank">some agencies more than others.</a>
 
-Across those agencies, there are a few common data sources that can be organized by general topic or type of data. In the best case, everyone has a data colleague to ping with an actual quick question (so few QQs to a data team are actually quick) of where to start. I made this <a href="data_decisiontree.png" target="_blank">workflow diagran / framework</a> as a static substitute for that ideal, but unlikely, scenario of having someone to ask.
+Across those agencies, there are a few common data sources that can be organized by general topic or type of data. In the best case, everyone has a data colleague to ping with an actual quick question (so few QQs to a data team are actually quick) of where to start. I made this <a href="data_decisiontree.png" target="_blank">workflow diagram / framework</a> as a static substitute for that ideal, but unlikely, scenario of having someone to ask.
 
 ```{r echo=FALSE, fig.cap="What kind of data do you need?", fig.align="center", out.width="100%"}
 knitr::include_graphics("data_decisiontree.png")
@@ -51,7 +51,7 @@ This <a href="data_decisiontree.png" target="_blank">version</a> will open the f
 
 The decision tree focuses on the general topic of the data, but there are many dimensions and factors of the data that may well be important to consider about each source. What's the sample size? How often are data collected? Is the study design longitudinal with multiple surveys of the same person over time or a a cross-sectional snapshot of a different sample of people every time? 
 
-**I made <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing" target="_blank">a catolog / table</a> with all of this information in the diagram below for each study.** If you know already what data you need, or want to choose based on one of the factors below (e.g., sample size), this would be a good place to start.
+**I made <a href="https://docs.google.com/spreadsheets/d/1GV2QTW7nDaPKmCzPvRGCYKrTY1jI1aFDt1-I9lBnfFY/edit?usp=sharing" target="_blank">a catalog / table</a> with all of this information in the diagram below for each study.** If you know already what data you need, or want to choose based on one of the factors below (e.g., sample size), this would be a good place to start.
 
 ```{r fig.align="center",  out.width = "100%", fig.cap="What's in the data?", echo=FALSE}
 knitr::include_graphics("data_factors.png")
@@ -70,7 +70,7 @@ And with this specific user -- again, someone in product, ops, or strategy who n
 - National Study on Drug Use and Health (<a href="https://pdas.samhsa.gov/#/" target="_blank">NSDUH</a>)
 - National Health Interview Survey (<a href="https://www.cdc.gov/nchs/nhis/shs.htm" target="_blank">NHIS</a>)
 - <a href="https://www.childhealthdata.org/" target="_blank">National Survey of Childrens' Health</a>
-- Yourh Risk Behavior Survey System (<a href="https://nccd.cdc.gov/Youthonline/App/Default.aspx" target="_blank">YRBSS</a>)
+- Youth Risk Behavior Survey System (<a href="https://nccd.cdc.gov/Youthonline/App/Default.aspx" target="_blank">YRBSS</a>)
 
 ### What can you get from these online analysis tools?
 As a glimpse of what some of these analysis tools look like and some kinds of common features, BRFSS is a good example. It has the largest sample size and the best capacity for a state or metro-area analysis of the other studies. The <a href="https://www.cdc.gov/brfss/brfssprevalence/index.html" target="_blank">Prevalence and Trends Data Tool</a> allows users to select one of the survey questions and see the state average responses displayed in a map, graph, or table. There are some additional features for more detailed analyses:
@@ -109,7 +109,7 @@ This also focused or framed these data as part of the federal agencies that gene
 -   Academic hosts, non-profits, and other aggregators of data:
     -   <a href="https://www.ipums.org/" target="_blank">IPUMS</a> (demographic, economic, and health data --- over time)
         -   I used to teach a class that required using IPUMS data for the final data analysis project, mostly to simplify the process of finding well-documented and organized data. A former student once said "it's like online shopping --- but for data!" which is basically exactly what it is. (I'm biased --- I was and still am affiliated with research centers that are related to the IPUMS data repositories).
-    -   <a href="https://www.icpsr.umich.edu/" target="_blank">ICPSR</a> (Lots of NIH funded studies' data ishosted here)
+    -   <a href="https://www.icpsr.umich.edu/" target="_blank">ICPSR</a> (Lots of NIH funded studies' data is hosted here)
 
 I imagine that some extensions to this work might be:
 
